@@ -14,6 +14,8 @@ Metodos adheridos manipulaciones de tablas creaTable inserTable updaTable deleTa
 Optimizacion de creacion de querys utilizando la funcion implode
 */
 
+require 'config.simpleql.php';
+
 class Mysql {
 	
 	function __construct(){
